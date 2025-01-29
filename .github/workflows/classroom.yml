@@ -19,7 +19,7 @@ jobs:
       with:
         test-name: T1
         setup-command: ''
-        command: python3 soution.py
+        command: python3 solution.py
         input: |-
           3
           6
