@@ -1,4 +1,4 @@
 # Write your code here
-g=int(input())
-h=int(input())
-print(g+h)
+a=int(input())
+b=int(input())
+print(a+b)
