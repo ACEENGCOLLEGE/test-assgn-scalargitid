@@ -1,4 +1,4 @@
 # Write your code here
 g=int(input())
-h=int(input())
-print(g+h)
+i=int(input())
+print(g+i)
