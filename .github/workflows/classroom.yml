@@ -19,7 +19,7 @@ jobs:
       with:
         test-name: T1
         setup-command: ''
-        command: python3 soution.py
+        command: python3 solution.py
         input: |-
           3
           6
@@ -48,3 +48,7 @@ jobs:
         T2_RESULTS: "${{steps.t2.outputs.result}}"
       with:
         runners: t1,t2
+    - name: Debug T1 Result
+      run: |
+        echo "T1 Result: ${{steps.t1.outputs.result}}"
+
